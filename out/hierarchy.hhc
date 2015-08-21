@@ -1,0 +1,47 @@
+
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- Sitemap 1.0 -->
+</head>
+<body>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Garage Tasks"><param name="Local" value="tasks/garagetaskoverview.html"></OBJECT><UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Changing the oil in your car"><param name="Local" value="tasks/changingtheoil.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Organizing the workbench and tools"><param name="Local" value="tasks/organizing.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Shovelling snow"><param name="Local" value="tasks/shovellingsnow.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Spray painting"><param name="Local" value="tasks/spraypainting.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Taking out the garbage"><param name="Local" value="tasks/takinggarbage.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Washing the car"><param name="Local" value="tasks/washingthecar.html"></OBJECT>
+</LI></UL>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Garage Concepts"><param name="Local" value="concepts/garageconceptsoverview.html"></OBJECT><UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Lawnmower"><param name="Local" value="concepts/lawnmower.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Oil"><param name="Local" value="concepts/oil.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Paint"><param name="Local" value="concepts/paint.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Shelving"><param name="Local" value="concepts/shelving.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Snow shovel"><param name="Local" value="concepts/snowshovel.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Tool box"><param name="Local" value="concepts/toolbox.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Tools"><param name="Local" value="concepts/tools.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Water hose"><param name="Local" value="concepts/waterhose.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Wheel barrow"><param name="Local" value="concepts/wheelbarrow.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Workbench"><param name="Local" value="concepts/workbench.html"></OBJECT>
+</LI>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Windshield washer fluid"><param name="Local" value="concepts/wwfluid.html"></OBJECT>
+</LI></UL>
+</LI></UL>
+</body>
+</html>

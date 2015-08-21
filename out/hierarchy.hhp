@@ -1,0 +1,36 @@
+[OPTIONS]
+Compiled file=hierarchy.chm
+Contents file=hierarchy.hhc
+Default Window=default
+Full-text search=Yes
+Display compile progress=No
+Index file=hierarchy.hhk
+Binary Index=No
+Language=0x0409 English (United States)
+Default topic=tasks/garagetaskoverview.html
+Title=Working in the garage
+
+[FILES]
+concepts/garageconceptsoverview.html
+concepts/lawnmower.html
+concepts/oil.html
+concepts/paint.html
+concepts/shelving.html
+concepts/snowshovel.html
+concepts/toolbox.html
+concepts/tools.html
+concepts/waterhose.html
+concepts/wheelbarrow.html
+concepts/workbench.html
+concepts/wwfluid.html
+tasks/changingtheoil.html
+tasks/garagetaskoverview.html
+tasks/organizing.html
+tasks/shovellingsnow.html
+tasks/spraypainting.html
+tasks/takinggarbage.html
+tasks/washingthecar.html
+
+
+[INFOTYPES]
+
