@@ -6,12 +6,17 @@ article[level="1"] {
     page-break-before: always;
     counter-increment: c1;
     counter-reset: c2;
+    counter-reset: c3;
 }
 
 article[level="2"] {
     counter-increment: c2;
+    counter-reset: c3;
 }
 
+article[level="3"] {
+    counter-increment: c3;
+}
 
 article[level="1"] h1 {
     font-size: 2em;
@@ -20,7 +25,13 @@ article[level="1"] h1 {
 }
 
 article[level="2"] h1 {
-    font-size: 1.2em;
+    font-size: 1.6em;
+    color: blue;
+}
+
+article[level="3"] h1 {
+    font-size: 1.4em;
+    color: orange;
 }
 
 article[level="1"] h1::before {
@@ -30,6 +41,11 @@ article[level="1"] h1::before {
 
 article[level="2"] h1::before {
     content: counter(c1) '.' counter(c2);
+    margin-right: 1em;
+}
+
+article[level="3"] h1::before {
+    content: counter(c1) '.' counter(c2) '.' counter(c3);
     margin-right: 1em;
 }
 
