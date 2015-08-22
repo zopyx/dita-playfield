@@ -22,16 +22,19 @@ article[level="1"] h1 {
     font-size: 2em;
     color: red;
     border-bottom: 1px solid red;
+    -ro-pdf-bookmark-level: 1;
 }
 
 article[level="2"] h1 {
     font-size: 1.6em;
     color: blue;
+    -ro-pdf-bookmark-level: 2;
 }
 
 article[level="3"] h1 {
     font-size: 1.4em;
     color: orange;
+    -ro-pdf-bookmark-level: 3;
 }
 
 article[level="1"] h1::before {
