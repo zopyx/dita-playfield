@@ -29,7 +29,7 @@ def hierarchy_level(node):
 
     current = node
     count = 0
-    while current:
+    while current is not None:
         css_class = current.attrib.get('class', '')
         if 'topicref' in css_class:
             count += 1
@@ -47,16 +47,11 @@ body = lxml.etree.Element('body')
 html.append(body)
 
 for topicref in selector(root):
-    print topicref
     first_link = topicref.find('a')
-    print first_link
     topic_href = first_link.attrib['href']
     topic_title = first_link.text
     topic_level = hierarchy_level(topicref)
 
-    print '-'*80
-    print topic_href
-    print topic_level
     article_node = article_from_href(topic_href)
     article_node.attrib['level'] = str(topic_level)
     body.append(article_node)
