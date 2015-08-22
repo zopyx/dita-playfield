@@ -1,0 +1,36 @@
+body {
+    font-family: Sans-Serif;
+}
+
+article[level="1"] {
+    page-break-before: always;
+    counter-increment: c1;
+    counter-reset: c2;
+}
+
+article[level="2"] {
+    counter-increment: c2;
+}
+
+
+article[level="1"] h1 {
+    font-size: 2em;
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+article[level="2"] h1 {
+    font-size: 1.2em;
+}
+
+article[level="1"] h1::before {
+    content: counter(c1);
+    margin-right: 1em;
+}
+
+article[level="2"] h1::before {
+    content: counter(c1) '.' counter(c2);
+    margin-right: 1em;
+}
+
+

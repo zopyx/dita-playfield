@@ -41,8 +41,10 @@ with open(full_fn, 'rb') as fp:
 
 selector = CSSSelector('li.topicref')
 
+html = lxml.etree.Element('html')
+html.append(lxml.etree.Element('head'))
 body = lxml.etree.Element('body')
-current = body
+html.append(body)
 
 for topicref in selector(root):
     print topicref
@@ -57,7 +59,7 @@ for topicref in selector(root):
     print topic_level
     article_node = article_from_href(topic_href)
     article_node.attrib['level'] = str(topic_level)
-    current.append(article_node)
+    body.append(article_node)
 
 with open(target_fn, 'wb') as fp:
-    fp.write(lxml.html.tostring(body))
+    fp.write(lxml.html.tostring(html))
